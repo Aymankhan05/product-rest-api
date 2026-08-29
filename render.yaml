@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: product-rest-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
